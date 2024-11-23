@@ -1,0 +1,26 @@
+<svg width="19" height="11" viewBox="0 0 19 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="19" height="11" fill="#1E1E1E"/>
+<g id="Trang ch&#225;&#187;&#167;" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="3548" transform="translate(-474 -42)" fill="white"/>
+<rect id="Rectangle 122" x="-474" y="-42" width="1440" height="3548" fill="#FFBEA9" fill-opacity="0.69"/>
+<g id="heading" filter="url(#filter0_d_0_1)">
+<rect id="Rectangle 3" x="-474" y="-42" width="1440" height="91" fill="#FF474A"/>
+</g>
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M1.2131 -6.67884e-07L0.000421471 1.21268L9.43478 10.647L18.8691 1.21268L17.6565 5.08788e-08L9.43478 8.22168L1.2131 -6.67884e-07Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-478" y="-42" width="1448" height="620" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="3548" fill="white" transform="translate(-474 -42)"/>
+</clipPath>
+</defs>
+</svg>
