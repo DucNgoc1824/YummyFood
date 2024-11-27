@@ -256,7 +256,7 @@ header .search-bar button img {
 .uu-dai::after {
   content: "";
   display: block;
-  width: calc(100% - 40px);
+  width: 1164px;
   height: 1px;
   background: #868686;
   margin-top: 42px;
@@ -272,4 +272,138 @@ header .search-bar button img {
   top: 180px;
   width: 27px;
   height: 47.849px;
+}
+/* gợi ý */
+.goi-y .title {
+  margin-top: 13px;
+  color: #101010;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.goi-y .goi-y-list .top {
+  margin-top: 26px;
+}
+.goi-y .goi-y-list .bottom {
+  margin-top: 36px;
+}
+.goi-y .goi-y-list .top,
+.goi-y .goi-y-list .bottom {
+  display: flex;
+  gap: 16px;
+}
+.goi-y-list .goi-y-item .thumb {
+  width: 220px;
+  height: 232px;
+  flex-shrink: 0;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.goi-y-item .btn.goi-y-food {
+  margin-top: 25px;
+  width: 220px;
+  height: 54px;
+}
+.goi-y::after {
+  content: "";
+  display: block;
+  width: 1164px;
+  height: 1px;
+  background: #868686;
+  margin-top: 42px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* thông tin thêm */
+.more-infor {
+  margin-top: 27px;
+}
+.more-infor .infor-top .ques {
+  color: #ff474a;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.more-infor .infor-top .advance {
+  color: #ff474a;
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 55px;
+  line-height: normal;
+}
+.more-infor .infor-bot {
+  margin-top: 59px;
+}
+.more-infor .infor-bot .title {
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.more-infor .infor-bot .ques-bot {
+  margin-top: 30px;
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.more-infor .infor-bot .answer {
+  margin-top: 30px;
+  color: #000;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: normal;
+}
+/* footer */
+.footer {
+  margin-top: 150px;
+  background: #ff474a;
+  padding-top: 55px;
+}
+.footer .top {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.footer .top h1 {
+  margin-left: 50px;
+}
+.footer .top::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .mid {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .mid .list{
+  margin-top: 76px;
+}
+.footer .mid .list a {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer .mid .socials{
+  margin-top: 22px;
+}
+.footer .contact::after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .bot{
+  margin-top: 9px;
 }
