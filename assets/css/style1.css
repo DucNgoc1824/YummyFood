@@ -78,6 +78,12 @@ header {
   padding-bottom: 32px;
   position: relative;
 }
+.nav a:hover {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
 .nav img.subtract-icon {
   position: absolute;
   top: 43px;
@@ -380,7 +386,7 @@ header .search-bar button img {
   display: flex;
   justify-content: space-between;
 }
-.footer .mid .list{
+.footer .mid .list {
   margin-top: 76px;
 }
 .footer .mid .list a {
@@ -391,10 +397,10 @@ header .search-bar button img {
   font-weight: 700;
   line-height: normal;
 }
-.footer .mid .socials{
+.footer .mid .socials {
   margin-top: 22px;
 }
-.footer .contact::after{
+.footer .contact::after {
   content: "";
   display: block;
   width: 100%;
@@ -404,6 +410,6 @@ header .search-bar button img {
   margin-left: auto;
   margin-right: auto;
 }
-.footer .bot{
+.footer .bot {
   margin-top: 9px;
 }
