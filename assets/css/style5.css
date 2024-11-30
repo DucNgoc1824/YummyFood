@@ -78,6 +78,11 @@ header {
   padding-bottom: 32px;
   position: relative;
 }
+.nav a.active {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
 .nav a:hover {
   color: #fff;
   font-size: 2.4rem;
