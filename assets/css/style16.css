@@ -141,173 +141,84 @@ header .search-bar button img {
   font-size: 2.4rem;
   font-weight: 400;
 }
-/* main */
-.personal.main-content {
-  display: flex;
-  margin-top: 100px;
+.voucher {
+  margin-top: 37px;
 }
-.left .top {
-  display: flex;
-  align-items: center;
-}
-.left .top .infor .name {
-  color: #000;
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-.left .top .infor .infor-bot {
-  margin-top: 13px;
-  display: flex;
-  align-items: center;
-}
-.left .top .infor .infor-bot a {
-  color: #636363;
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-left: 3px;
-}
-.left .separate {
-  margin-top: 29px;
-  background: #ababab;
-  width: 220px;
-  height: 1px;
-  flex-shrink: 0;
-}
-.left .funtion {
-  display: flex;
-  flex-direction: column;
-  gap: 13px;
-  margin-top: 28px;
-}
-.left .funtion .my-acc {
-  display: flex;
-  align-items: center;
-}
-.left .funtion .my-acc a {
-  color: #000;
-  font-size: 2.4rem;
-  font-weight: 400;
-  margin-left: 3px;
-}
-.right {
-  margin-left: 32px;
-}
-.right .heading {
-  margin-top: 17px;
-  margin-bottom: 41px;
-  width: 900px;
-  height: 51px;
-  flex-shrink: 0;
-  display: flex;
-  gap: 3px;
-  background: #ababab;
-  justify-content: space-between;
-}
-.right .heading a.option {
-  padding-top: 12px;
-  width: 33%;
-  text-align: center;
-  background: #ff474a;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  color: #fff;
-  font-size: 2.4rem;
-  font-weight: 400;
-}
-.right .heading a.option.active {
+.voucher .title {
+  color: #101010;
+  font-size: 3.6rem;
   font-weight: 700;
 }
-.right .content {
-  margin-top: 21px;
-  width: 900px;
-  flex-shrink: 0;
-  background: #fff;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.voucher .content {
+  margin-top: 35px;
   border-radius: 6px;
+  background: #fff;
 }
-.right .content .head .btn {
-  margin-top: 8px;
-  margin-left: 19px;
+.voucher .content .btn {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  border-radius: 6px;
   width: 81px;
   height: 28px;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 400;
+  margin-left: 11px;
+  margin-top: 8px;
 }
-.right .content .head::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #dadada;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.right .content .items .divide {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background: #dadada;
-  margin-left: auto;
-  margin-right: auto;
-}
-.right .content .item {
-  padding-top: 10px;
-  padding-left: 28px;
-  padding-bottom: 31px;
+.voucher .content .item {
   display: flex;
+  justify-content: space-between;
+  padding-right: 11px;
+  padding-bottom: 49px;
   align-items: center;
-  position: relative;
 }
-.right .content .item p {
+.voucher .content .item .right {
+  margin-top: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.voucher .content .item .right h3 {
+  color: #0d0d0d;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.voucher .content .item .right p {
   color: #888;
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
 }
-.right .content .item .date {
-  margin-bottom: 12px;
-  color: #000;
-  font-size: 1.6rem;
-  font-weight: 400;
-}
-.right .content .item h2 {
-  color: #000;
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-.right .content .item .infor {
-  margin-top: 30px;
-  display: flex;
-  gap: 70px;
-}
-.right .content .item .infor .bot {
-  margin-top: 13px;
-  color: #000;
-}
-.right .content .item img {
-  width: 216px;
-  height: 143px;
+.voucher .content .divide {
+  width: 1164px;
+  height: 1px;
   flex-shrink: 0;
-  border-radius: 6px;
-  object-fit: cover;
-  margin-left: 83px;
+  background: #ababab;
+  margin-top: 20px;
 }
-.right .content .item .trang-thai {
-  position: absolute;
-  right: 38px;
-  bottom: 0;
-  color: #ff474a;
+.voucher .content .left {
+  display: flex;
+}
+.voucher .content .left img {
+  margin-top: 33px;
+  margin-left: 7px;
+}
+.voucher .content .left .desc {
+  margin-top: 47px;
+  margin-left: 21px;
+  color: #888;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 500;
+}
+.voucher .content .left .desc p {
+  margin-top: 10px;
+}
+.voucher .content .left .desc h3 {
+  color: #000;
+  font-weight: 500;
 }
 /* footer */
 .footer {
   margin-top: 150px;
   background: #ff474a;
-  padding-top: 55px;
 }
 .footer .top img {
   margin-left: 50px;
@@ -320,7 +231,6 @@ header .search-bar button img {
   width: 100%;
   height: 1px;
   background: #dadada;
-  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
 }

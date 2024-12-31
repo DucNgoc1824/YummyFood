@@ -58,10 +58,16 @@ header {
   align-items: center;
 }
 .header .logo {
+  display: flex;
+  align-items: center;
   color: #fbeded;
-  font-size: 4rem;
-  font-weight: 700;
-  padding: 21px 23px 14px;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header .logo img {
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
 }
 .nav ul {
   display: flex;
@@ -77,11 +83,6 @@ header {
   padding-top: 31px;
   padding-bottom: 32px;
   position: relative;
-}
-.nav a.active {
-  color: #fff;
-  font-size: 2.4rem;
-  font-weight: 700;
 }
 .nav a:hover {
   color: #fff;
@@ -234,7 +235,7 @@ header .search-bar button img {
   width: 27px;
   height: 47.849px;
 }
-.popular-food::after{
+.popular-food::after {
   content: "";
   display: block;
   width: 1164px;
@@ -254,7 +255,7 @@ header .search-bar button img {
   display: flex;
   gap: 16px;
 }
-.food-list .pop-food-item{
+.food-list .pop-food-item {
   flex: 1;
   border-radius: 15px;
   background: #fff;
@@ -298,7 +299,7 @@ header .search-bar button img {
   bottom: 0;
   right: 0;
 }
-.popular-food .btn.more{
+.popular-food .btn.more {
   margin-top: 32px;
   width: 1164px;
   height: 51px;
@@ -310,13 +311,10 @@ header .search-bar button img {
   background: #ff474a;
   padding-top: 55px;
 }
-.footer .top {
-  color: #fff;
-  font-size: 4.8rem;
-  font-weight: 700;
-}
-.footer .top h1 {
+.footer .top img {
   margin-left: 50px;
+  width: 226px;
+  height: 226px;
 }
 .footer .top::after {
   content: "";
@@ -324,7 +322,7 @@ header .search-bar button img {
   width: 100%;
   height: 1px;
   background: #dadada;
-  margin-top: 55px;
+  margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -345,6 +343,8 @@ header .search-bar button img {
 }
 .footer .mid .socials {
   margin-top: 22px;
+  display: flex;
+  gap: 28px;
 }
 .footer .contact::after {
   content: "";
