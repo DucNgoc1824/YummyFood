@@ -1,681 +1,683 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style2.css" />
+    <title>Đồ ăn</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style2.css" />
-  <title>Đồ ăn</title>
-</head>
-
-<body>
-  <!-- header -->
-  <header class="header fixed">
-    <div class="main-content">
-      <div class="body">
-        <!-- logo -->
-        <a href="#!" class="logo">YummyFood</a>
-        <!-- nav -->
-        <nav class="nav">
-          <ul>
-            <li>
-              <a href="#!">Vị trí
-                <img class="subtract-icon" src="./assets/icon/Subtract.svg" alt="" />
-              </a>
-            </li>
-            <li>
-              <a href="./trang3.html">Đồ ăn</a>
-            </li>
-            <li>
-              <a href="#!">Hỗ trợ</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- search bar -->
-        <div class="search-bar">
-          <input type="text" placeholder="" />
-          <button><img src="./assets/img/Search.png" alt="Search" /></button>
-        </div>
-        <!-- login -->
-        <div class="login">
-          <a href="#!">Đăng nhập/</a>
-          <a href="#!">Đăng kí</a>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- main -->
-  <main>
-    <!-- slider -->
-    <div class="slider">
+  <body>
+    <!-- header -->
+    <header class="header fixed">
       <div class="main-content">
-        <div class="food-images">
-          <!-- img1 -->
-          <div class="food-image">
-            <img src="./assets/img/slider-img1.jpg" alt="" class="thumb" />
-            <div class="dots">
-              <span class="dot active"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-            <button class="prev">
-              <img src="./assets/icon/prev.svg" alt="" />
-            </button>
-            <button class="next">
-              <img src="./assets/icon/next.svg" alt="" />
-            </button>
+        <div class="body">
+          <!-- logo -->
+          <a href="#!" class="logo">
+            <img src="./assets/img/logo.png" alt="" />
+            <h1>YummyFood</h1>
+          </a>
+          <!-- nav -->
+          <nav class="nav">
+            <ul>
+              <li>
+                <a href="#!"
+                  >Vị trí
+                  <img class="subtract-icon" src="./assets/icon/Subtract.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="./trang3.html">Đồ ăn</a>
+              </li>
+              <li>
+                <a href="#!">Hỗ trợ</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- search bar -->
+          <div class="search-bar">
+            <input type="text" placeholder="" />
+            <button><img src="./assets/img/Search.png" alt="Search" /></button>
           </div>
-          <!-- img2 -->
-          <div class="food-image">
-            <img src="./assets/img/slider-img2.jpg" alt="" class="thumb" />
-            <div class="dots">
-              <span class="dot"></span>
-              <span class="dot active"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-            </div>
-            <button class="prev">
-              <img src="./assets/icon/prev.svg" alt="" />
-            </button>
-            <button class="next">
-              <img src="./assets/icon/next.svg" alt="" />
-            </button>
-          </div>
-          <!-- img3 -->
-          <div class="food-image">
-            <img src="./assets/img/slider-img3.jpg" alt="" class="thumb" />
-            <div class="dots">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot active"></span>
-              <span class="dot"></span>
-            </div>
-            <button class="prev">
-              <img src="./assets/icon/prev.svg" alt="" />
-            </button>
-            <button class="next">
-              <img src="./assets/icon/next.svg" alt="" />
-            </button>
-          </div>
-          <!-- img4 -->
-          <div class="food-image">
-            <img src="./assets/img/slider-img4.jpg" alt="" class="thumb" />
-            <div class="dots">
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot"></span>
-              <span class="dot active"></span>
-            </div>
-            <button class="prev">
-              <img src="./assets/icon/prev.svg" alt="" />
-            </button>
-            <button class="next">
-              <img src="./assets/icon/next.svg" alt="" />
-            </button>
+          <!-- login -->
+          <div class="login">
+            <a href="#!">Đăng nhập/</a>
+            <a href="#!">Đăng kí</a>
           </div>
         </div>
       </div>
-    </div>
-    <!-- search bar -->
-    <div class="search-bar-main">
-      <input type="text" placeholder="Tìm kiếm món ăn..." />
-      <button><img src="./assets/img/Search.png" alt="Search" /></button>
-    </div>
-    <!-- ưu đãi -->
-    <div class="uu-dai">
-      <div class="main-content">
-        <h1 class="title">Các ưu đãi trong ngày</h1>
-        <div class="uu-dai-list">
-          <!-- item1 -->
-          <div class="uu-dai-item">
-            <a href="#!"><img src="./assets/img/uudai1.png" alt="" class="thumb" /></a>
-            <div class="infor">
-              <a class="line-clamp" href="#!">
-                <h3 class="food-name">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h3>
-              </a>
-              <p class="desc chi-tiet">Bánh Mì - Xôi, Cơm, Gà Rán - Burger, Bánh Việt Nam</p>
-              <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+    </header>
+    <!-- main -->
+    <main>
+      <!-- slider -->
+      <div class="slider">
+        <div class="main-content">
+          <div class="food-images">
+            <!-- img1 -->
+            <div class="food-image">
+              <img src="./assets/img/slider-img1.jpg" alt="" class="thumb" />
+              <div class="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <button class="prev">
+                <img src="./assets/icon/prev.svg" alt="" />
+              </button>
+              <button class="next">
+                <img src="./assets/icon/next.svg" alt="" />
+              </button>
             </div>
-          </div>
-          <!-- item2 -->
-          <div class="uu-dai-item">
-            <a href="#!"><img src="./assets/img/uudai2.png" alt="" class="thumb" /></a>
-            <div class="infor">
-              <a class="line-clamp" href="#!">
-                <h3 class="food-name">Bánh mì Cô Chun</h3>
-              </a>
-              <p class="desc chi-tiet">Bánh Mì</p>
-              <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+            <!-- img2 -->
+            <div class="food-image">
+              <img src="./assets/img/slider-img2.jpg" alt="" class="thumb" />
+              <div class="dots">
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+              <button class="prev">
+                <img src="./assets/icon/prev.svg" alt="" />
+              </button>
+              <button class="next">
+                <img src="./assets/icon/next.svg" alt="" />
+              </button>
             </div>
-          </div>
-          <!-- item3 -->
-          <div class="uu-dai-item">
-            <a href="#!"><img src="./assets/img/uudai3.png" alt="" class="thumb" /></a>
-            <div class="infor">
-              <a class="line-clamp" href="#!">
-                <h3 class="food-name">Cơm thố Anh Nguyễn - Giang Văn Minh</h3>
-              </a>
-              <p class="desc chi-tiet">Cơm, Bún - Phở - Cháo, Đồ ăn Healthy, Lẩu & Nướng - Quay</p>
-              <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+            <!-- img3 -->
+            <div class="food-image">
+              <img src="./assets/img/slider-img3.jpg" alt="" class="thumb" />
+              <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot active"></span>
+                <span class="dot"></span>
+              </div>
+              <button class="prev">
+                <img src="./assets/icon/prev.svg" alt="" />
+              </button>
+              <button class="next">
+                <img src="./assets/icon/next.svg" alt="" />
+              </button>
             </div>
-          </div>
-          <!-- item4 -->
-          <div class="uu-dai-item">
-            <a href="#!"><img src="./assets/img/uudai4.png" alt="" class="thumb" /></a>
-            <div class="infor">
-              <a class="line-clamp" href="#!">
-                <h3 class="food-name">Quán cơm rang 1989 - Cơm rang văn phòng</h3>
-              </a>
-              <p class="desc chi-tiet">Cơm</p>
-              <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
-            </div>
-          </div>
-          <!-- item5 -->
-          <div class="uu-dai-item">
-            <a href="#!"><img src="./assets/img/uudai5.png" alt="" class="thumb" /></a>
-            <div class="infor">
-              <a class="line-clamp" href="#!">
-                <h3 class="food-name">Cơm thố delichi - Nguyễn Thái Học</h3>
-              </a>
-              <p class="desc chi-tiet">Cơm</p>
-              <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+            <!-- img4 -->
+            <div class="food-image">
+              <img src="./assets/img/slider-img4.jpg" alt="" class="thumb" />
+              <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot active"></span>
+              </div>
+              <button class="prev">
+                <img src="./assets/icon/prev.svg" alt="" />
+              </button>
+              <button class="next">
+                <img src="./assets/icon/next.svg" alt="" />
+              </button>
             </div>
           </div>
         </div>
-        <button class="btn more">Xem thêm</button>
-        <button class="next">
-          <img src="./assets/icon/black-next.svg" alt="" />
-        </button>
       </div>
-    </div>
-    <!-- FLASH SALE -->
-    <div class="flash-sale">
-      <div class="main-content">
-        <h1 class="title">PLASH SALE 01:26:35</h1>
-        <div class="flash-sale-list">
-          <!-- item1 -->
-          <div class="flash-sale-item">
-            <a href="#!"><img src="./assets/img/flashsale1.png" alt="" class="thumb" /></a>
-            <!-- infor -->
-            <div class="infor">
-              <a href="#!" class="shop-name">
-                <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
-              </a>
-              <a href="#!" class="price">
-                <span class="sale-price">35.000</span>
-                <span class="old-price">45.000</span>
-                <span class="currency">đ</span>
-              </a>
+      <!-- search bar -->
+      <div class="search-bar-main">
+        <input type="text" placeholder="Tìm kiếm món ăn..." />
+        <button><img src="./assets/img/Search.png" alt="Search" /></button>
+      </div>
+      <!-- ưu đãi -->
+      <div class="uu-dai">
+        <div class="main-content">
+          <h1 class="title">Các ưu đãi trong ngày</h1>
+          <div class="uu-dai-list">
+            <!-- item1 -->
+            <div class="uu-dai-item">
+              <a href="#!"><img src="./assets/img/uudai1.png" alt="" class="thumb" /></a>
+              <div class="infor">
+                <a class="line-clamp" href="#!">
+                  <h3 class="food-name">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h3>
+                </a>
+                <p class="desc chi-tiet">Bánh Mì - Xôi, Cơm, Gà Rán - Burger, Bánh Việt Nam</p>
+                <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div class="uu-dai-item">
+              <a href="#!"><img src="./assets/img/uudai2.png" alt="" class="thumb" /></a>
+              <div class="infor">
+                <a class="line-clamp" href="#!">
+                  <h3 class="food-name">Bánh mì Cô Chun</h3>
+                </a>
+                <p class="desc chi-tiet">Bánh Mì</p>
+                <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+              </div>
+            </div>
+            <!-- item3 -->
+            <div class="uu-dai-item">
+              <a href="#!"><img src="./assets/img/uudai3.png" alt="" class="thumb" /></a>
+              <div class="infor">
+                <a class="line-clamp" href="#!">
+                  <h3 class="food-name">Cơm thố Anh Nguyễn - Giang Văn Minh</h3>
+                </a>
+                <p class="desc chi-tiet">Cơm, Bún - Phở - Cháo, Đồ ăn Healthy, Lẩu & Nướng - Quay</p>
+                <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+              </div>
+            </div>
+            <!-- item4 -->
+            <div class="uu-dai-item">
+              <a href="#!"><img src="./assets/img/uudai4.png" alt="" class="thumb" /></a>
+              <div class="infor">
+                <a class="line-clamp" href="#!">
+                  <h3 class="food-name">Quán cơm rang 1989 - Cơm rang văn phòng</h3>
+                </a>
+                <p class="desc chi-tiet">Cơm</p>
+                <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+              </div>
+            </div>
+            <!-- item5 -->
+            <div class="uu-dai-item">
+              <a href="#!"><img src="./assets/img/uudai5.png" alt="" class="thumb" /></a>
+              <div class="infor">
+                <a class="line-clamp" href="#!">
+                  <h3 class="food-name">Cơm thố delichi - Nguyễn Thái Học</h3>
+                </a>
+                <p class="desc chi-tiet">Cơm</p>
+                <p class="desc time">Giờ mở cửa: Hôm nay 06:15-21:45</p>
+              </div>
             </div>
           </div>
-          <!-- item2 -->
-          <div class="flash-sale-item">
-            <a href="#!"><img src="./assets/img/flashsale2.png" alt="" class="thumb" /></a>
-            <!-- infor -->
-            <div class="infor">
-              <a href="#!" class="shop-name">
-                <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
-              </a>
-              <a href="#!" class="price">
-                <span class="sale-price">35.000</span>
-                <span class="old-price">45.000</span>
-                <span class="currency">đ</span>
-              </a>
-            </div>
-          </div>
-          <!-- item3 -->
-          <div class="flash-sale-item">
-            <a href="#!"><img src="./assets/img/flashsale3.png" alt="" class="thumb" /></a>
-            <!-- infor -->
-            <div class="infor">
-              <a href="#!" class="shop-name">
-                <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
-              </a>
-              <a href="#!" class="price">
-                <span class="sale-price">35.000</span>
-                <span class="old-price">45.000</span>
-                <span class="currency">đ</span>
-              </a>
-            </div>
-          </div>
-          <!-- item4 -->
-          <div class="flash-sale-item">
-            <a href="#!"><img src="./assets/img/flashsale4.png" alt="" class="thumb" /></a>
-            <!-- infor -->
-            <div class="infor">
-              <a href="#!" class="shop-name">
-                <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
-              </a>
-              <a href="#!" class="price">
-                <span class="sale-price">35.000</span>
-                <span class="old-price">45.000</span>
-                <span class="currency">đ</span>
-              </a>
-            </div>
-          </div>
-          <!-- item5 -->
-          <div class="flash-sale-item">
-            <a href="#!"><img src="./assets/img/flashsale5.png" alt="" class="thumb" /></a>
-            <!-- infor -->
-            <div class="infor">
-              <a href="#!" class="shop-name">
-                <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
-              </a>
-              <a href="#!" class="price">
-                <span class="sale-price">35.000</span>
-                <span class="old-price">45.000</span>
-                <span class="currency">đ</span>
-              </a>
-            </div>
-          </div>
+          <button class="btn more">Xem thêm</button>
           <button class="next">
             <img src="./assets/icon/black-next.svg" alt="" />
           </button>
         </div>
-        <button class="btn more">Xem thêm</button>
       </div>
-    </div>
-
-    <!-- sub slider -->
-    <div class="sub-slider">
-      <div class="food-image">
-        <a href="#!">
-          <img src="./assets/img/sub-slider.svg" alt="sub-slider" />
-        </a>
-        <button class="prev">
-          <img src="./assets/icon/prev.svg" alt="" />
-        </button>
-        <button class="next">
-          <img src="./assets/icon/next.svg" alt="" />
-        </button>
+      <!-- FLASH SALE -->
+      <div class="flash-sale">
+        <div class="main-content">
+          <h1 class="title">PLASH SALE 01:26:35</h1>
+          <div class="flash-sale-list">
+            <!-- item1 -->
+            <div class="flash-sale-item">
+              <a href="#!"><img src="./assets/img/flashsale1.png" alt="" class="thumb" /></a>
+              <!-- infor -->
+              <div class="infor">
+                <a href="#!" class="shop-name">
+                  <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
+                </a>
+                <a href="#!" class="price">
+                  <span class="sale-price">35.000</span>
+                  <span class="old-price">45.000</span>
+                  <span class="currency">đ</span>
+                </a>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div class="flash-sale-item">
+              <a href="#!"><img src="./assets/img/flashsale2.png" alt="" class="thumb" /></a>
+              <!-- infor -->
+              <div class="infor">
+                <a href="#!" class="shop-name">
+                  <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
+                </a>
+                <a href="#!" class="price">
+                  <span class="sale-price">35.000</span>
+                  <span class="old-price">45.000</span>
+                  <span class="currency">đ</span>
+                </a>
+              </div>
+            </div>
+            <!-- item3 -->
+            <div class="flash-sale-item">
+              <a href="#!"><img src="./assets/img/flashsale3.png" alt="" class="thumb" /></a>
+              <!-- infor -->
+              <div class="infor">
+                <a href="#!" class="shop-name">
+                  <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
+                </a>
+                <a href="#!" class="price">
+                  <span class="sale-price">35.000</span>
+                  <span class="old-price">45.000</span>
+                  <span class="currency">đ</span>
+                </a>
+              </div>
+            </div>
+            <!-- item4 -->
+            <div class="flash-sale-item">
+              <a href="#!"><img src="./assets/img/flashsale4.png" alt="" class="thumb" /></a>
+              <!-- infor -->
+              <div class="infor">
+                <a href="#!" class="shop-name">
+                  <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
+                </a>
+                <a href="#!" class="price">
+                  <span class="sale-price">35.000</span>
+                  <span class="old-price">45.000</span>
+                  <span class="currency">đ</span>
+                </a>
+              </div>
+            </div>
+            <!-- item5 -->
+            <div class="flash-sale-item">
+              <a href="#!"><img src="./assets/img/flashsale5.png" alt="" class="thumb" /></a>
+              <!-- infor -->
+              <div class="infor">
+                <a href="#!" class="shop-name">
+                  <h2>Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</h2>
+                </a>
+                <a href="#!" class="price">
+                  <span class="sale-price">35.000</span>
+                  <span class="old-price">45.000</span>
+                  <span class="currency">đ</span>
+                </a>
+              </div>
+            </div>
+            <button class="next">
+              <img src="./assets/icon/black-next.svg" alt="" />
+            </button>
+          </div>
+          <button class="btn more">Xem thêm</button>
+        </div>
       </div>
-    </div>
 
-    <!-- shop list -->
-    <div class="shop-list">
+      <!-- sub slider -->
+      <div class="sub-slider">
+        <div class="food-image">
+          <a href="#!">
+            <img src="./assets/img/sub-slider.svg" alt="sub-slider" />
+          </a>
+          <button class="prev">
+            <img src="./assets/icon/prev.svg" alt="" />
+          </button>
+          <button class="next">
+            <img src="./assets/icon/next.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <!-- shop list -->
+      <div class="shop-list">
+        <div class="main-content">
+          <!-- filter bar -->
+          <div class="filter-bar">
+            <button class="bt gan-toi">Gần tôi</button>
+            <button class="bt ban-chay">Bán chạy</button>
+            <button class="bt danh-gia">Đánh giá</button>
+          </div>
+
+          <!-- shop list item -->
+          <div class="shop-list-item">
+            <!-- row 1 -->
+            <div class="item-row">
+              <!-- item 1 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist1.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist2.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist3.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist4.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist5.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+            </div>
+            <!-- row 2 -->
+            <div class="item-row">
+              <!-- item 1 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist1.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist2.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist3.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist4.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist5.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+            </div>
+            <!-- row 3 -->
+            <div class="item-row">
+              <!-- item 1 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist1.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist2.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist3.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist4.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist5.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+            </div>
+            <!-- row 4 -->
+            <div class="item-row">
+              <!-- item 1 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist1.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist2.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist3.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 4 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist4.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="item">
+                <div class="thumb">
+                  <img src="./assets/img/shoplist5.png" alt="" />
+                </div>
+                <div class="infor">
+                  <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
+                  <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
+                  <p class="desc desc2">Giờ mở cửa</p>
+                  <p class="desc desc3">Hôm nay 06:15-21:45</p>
+                </div>
+                <div class="sale">
+                  <a href="#!">Mã giảm giá 30%</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
       <div class="main-content">
-        <!-- filter bar -->
-        <div class="filter-bar">
-          <button class="bt gan-toi">Gần tôi</button>
-          <button class="bt ban-chay">Bán chạy</button>
-          <button class="bt danh-gia">Đánh giá</button>
+        <div class="top">
+          <a href="#!"><img src="./assets/img/logo.png" alt="" /></a>
         </div>
-
-        <!-- shop list item -->
-        <div class="shop-list-item">
-          <!-- row 1 -->
-          <div class="item-row">
-            <!-- item 1 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist1.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist2.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist3.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 4 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist4.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 5 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist5.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-          </div>
-          <!-- row 2 -->
-          <div class="item-row">
-            <!-- item 1 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist1.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist2.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist3.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 4 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist4.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 5 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist5.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-          </div>
-          <!-- row 3 -->
-          <div class="item-row">
-            <!-- item 1 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist1.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist2.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist3.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 4 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist4.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 5 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist5.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-          </div>
-          <!-- row 4 -->
-          <div class="item-row">
-            <!-- item 1 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist1.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 2 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist2.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 3 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist3.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 4 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist4.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
-            </div>
-            <!-- item 5 -->
-            <div class="item">
-              <div class="thumb">
-                <img src="./assets/img/shoplist5.png" alt="" />
-              </div>
-              <div class="infor">
-                <a href="#!" class="title">Bami King - Bánh Mì Bò Nướng & Cơm Thố - An Trạch</a>
-                <p class="desc desc1">Bánh Mì - Xôi,Cơm,Gà Rán - Burger,Bánh Việt Nam</p>
-                <p class="desc desc2">Giờ mở cửa</p>
-                <p class="desc desc3">Hôm nay 06:15-21:45</p>
-              </div>
-              <div class="sale">
-                <a href="#!">Mã giảm giá 30%</a>
-              </div>
+        <div class="contact">
+          <div class="mid">
+            <ul class="list">
+              <li>
+                <a href="#!">Về YummyFood</a>
+              </li>
+              <li>
+                <a href="#!">Blog</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <a href="#!">Mở quán trên YummyFood</a>
+              </li>
+              <li>
+                <a href="#!">Trở thành người giao hàng của YummyFood</a>
+              </li>
+            </ul>
+            <ul class="list">
+              <li>
+                <a href="#!">Trung tâm hỗ trợ</a>
+              </li>
+              <li>
+                <a href="#!">Câu hỏi thường gặp</a>
+              </li>
+            </ul>
+            <div class="socials">
+              <a href="#!">
+                <img src="./assets/img/Facebook.png" alt="" />
+              </a>
+              <a href="#!">
+                <img src="./assets/img/Instagram.png" alt="" />
+              </a>
+              <a href="#!">
+                <img src="./assets/img/TwitterX.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </main>
-  <!-- footer -->
-  <footer class="footer">
-    <div class="main-content">
-      <div class="top">
-        <h1>YummyFood</h1>
-      </div>
-      <div class="contact">
-        <div class="mid">
-          <ul class="list">
-            <li>
-              <a href="#!">Về YummyFood</a>
-            </li>
-            <li>
-              <a href="#!">Blog</a>
-            </li>
-          </ul>
-          <ul class="list">
-            <li>
-              <a href="#!">Mở quán trên YummyFood</a>
-            </li>
-            <li>
-              <a href="#!">Trở thành người giao hàng của YummyFood</a>
-            </li>
-          </ul>
-          <ul class="list">
-            <li>
-              <a href="#!">Trung tâm hỗ trợ</a>
-            </li>
-            <li>
-              <a href="#!">Câu hỏi thường gặp</a>
-            </li>
-          </ul>
-          <div class="socials">
-            <a href="#!">
-              <img src="./assets/img/Facebook.png" alt="" />
-            </a>
-            <a href="#!">
-              <img src="./assets/img/Instagram.png" alt="" />
-            </a>
-            <a href="#!">
-              <img src="./assets/img/TwitterX.png" alt="" />
-            </a>
-          </div>
+        <div class="bot">
+          <a href="#!">
+            <img src="./assets/img/App Store.png" alt="" />
+          </a>
         </div>
       </div>
-      <div class="bot">
-        <a href="#!">
-          <img src="./assets/img/App Store.png" alt="" />
-        </a>
-      </div>
-    </div>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
