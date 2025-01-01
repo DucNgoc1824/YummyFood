@@ -1,0 +1,148 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.4rem;
+  font-family: "Roboto", serif;
+  background: #ff474a;
+}
+
+/* common */
+a {
+  text-decoration: none;
+}
+.line {
+  display: flex;
+  align-items: center;
+}
+.main-content {
+  width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 20px);
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  color: #edebeb;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  background: #ff474a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.main-content .body {
+  margin-top: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 117px;
+}
+
+.main-content .left-content .logo {
+  width: 467px;
+  height: 259px;
+}
+.main-content .left-content h1 {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.main-content .left-content h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+.main-content .right-content {
+  width: 574px;
+  height: 507px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.main-content .right-content .head-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 37px 18px 16px;
+}
+.main-content .right-content .head::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content .right-content .rc-body {
+  padding: 37px 96px;
+}
+.main-content .right-content .rc-body .account {
+  margin-top: 57px;
+}
+.main-content .right-content .icon {
+  width: 36px;
+  height: 36px;
+}
+.main-content .right-content .rc-body .line input {
+  flex-grow: 1;
+  margin: 0;
+  outline: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.main-content .right-content .rc-body .sign-in {
+  width: 338px;
+  height: 62px;
+  border-radius: 15px;
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+  color: #2b2727;
+  font-size: 2.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 32px;
+}
+.main-content .right-content .rc-body .account::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-content .right-content .rc-body .no-account {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.main-content .right-content .rc-body .no-account span {
+  margin-right: 5px;
+}

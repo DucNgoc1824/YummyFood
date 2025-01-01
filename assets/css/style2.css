@@ -228,6 +228,7 @@ header .search-bar button img {
   height: 100%;
   padding: 0 10px 0 10px;
   font-size: 2.4rem;
+  outline: none;
 }
 ::placeholder {
   color: #868383;
@@ -240,6 +241,7 @@ header .search-bar button img {
   background: transparent;
   cursor: pointer;
 }
+
 /* Ưu đãi */
 .uu-dai {
   position: relative;

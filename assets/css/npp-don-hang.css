@@ -1,0 +1,340 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.4rem;
+  font-family: "Roboto", serif;
+  background: rgba(255, 190, 169, 0.69);
+}
+/* common */
+a {
+  text-decoration: none;
+}
+.line {
+  display: flex;
+  align-items: center;
+}
+.main-content {
+  width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 20px);
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  color: #edebeb;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  background: #ff474a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+/* header */
+header {
+  background: #ff474a;
+  z-index: 100;
+}
+.header.fixed {
+  position: sticky;
+  top: -5px;
+}
+.header .main-content {
+  width: 1440px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  color: #fbeded;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header .logo img {
+  width: 105px;
+  height: 105px;
+}
+.nav ul {
+  display: flex;
+  gap: 54px;
+}
+.nav {
+  margin: 0 auto;
+}
+.nav a {
+  color: #fff;
+  font-size: 2.4rem;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  position: relative;
+}
+.nav a:hover {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav img.subtract-icon {
+  position: absolute;
+  top: 43px;
+}
+.header .user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .user p {
+  color: #fff;
+}
+/* search bar */
+.search-bar-main {
+  position: relative;
+  display: flex;
+  max-width: 1164px;
+  height: 39px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 10px;
+  background: #f3f0f0;
+  border: 1px solid #b2b2b2;
+  margin-top: 50px;
+}
+.search-bar-main input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  height: 100%;
+  padding: 0 10px 0 10px;
+  font-size: 2.4rem;
+  outline: none;
+}
+::placeholder {
+  color: #868383;
+  font-family: Roboto;
+}
+.search-bar-main button {
+  width: 103.314px;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.search-bar::after {
+  content: "";
+  display: block;
+  width: 1164px;
+  height: 1px;
+  background: #868686;
+  margin-top: 34px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* sub nav */
+.sub-nav {
+  margin-top: 43px;
+}
+.sub-nav .body {
+  width: 100%;
+  height: 63px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+}
+.sub-nav .body p {
+  flex: 1;
+  text-align: center;
+  color: #ff474a;
+  font-size: 2.4rem;
+}
+.sub-nav .body .active {
+  font-weight: 700;
+}
+/* main content */
+.mc {
+  margin-top: 18px;
+}
+.mc .body {
+  width: 1164px;
+  height: 500px;
+  border-radius: 6px;
+  background: #fff;
+  padding-top: 8px;
+}
+.mc .top .wrapper {
+  width: 81px;
+  height: 28px;
+  position: relative;
+  margin-left: 12px;
+}
+.mc .top .wrapper .icon {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 0;
+  top: 9px;
+}
+.mc .top .btn {
+  width: 100%;
+  height: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.mc .top::after {
+  content: "";
+  display: block;
+  width: 1164px;
+  height: 1px;
+  background: #868686;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.mc .mid {
+  margin-top: 10px;
+}
+.mc .mid .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.mc .mid .col1 {
+  margin-left: 20px;
+}
+.mc .mid .col1 p {
+  font-size: 1.6rem;
+}
+.mc .mid .col1 h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 12px;
+}
+.mc .mid .col1 span {
+  color: #888;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+.mc .mid .col1 table {
+  text-align: center; /* Căn giữa ngang */
+  vertical-align: middle; /* Căn giữa dọc */
+  width: 400px;
+  margin-top: 30px;
+}
+.mc .mid .col1 table th,
+.mc .mid .col1 table td {
+  padding: 6px; /* Khoảng cách bên trong ô */
+  height: 50px; /* Chiều cao ô đồng đều */
+}
+.mc .mid .col1 table td {
+  font-size: 1.6rem;
+}
+.mc .mid .col2 {
+  display: flex;
+  gap: 35px;
+}
+.mic .mid .col2 .pic {
+  border-radius: 6px;
+  background: lightgray 50% / cover no-repeat;
+  width: 216px;
+  height: 143px;
+  background-size: cover; /* Ảnh sẽ bao phủ toàn bộ khối */
+  background-position: center; /* Căn giữa ảnh */
+  background-repeat: no-repeat; /* Không lặp ảnh */
+}
+.mc .mid .col3 {
+  flex: 1;
+  height: 180px;
+  display: flex; /* Dùng flexbox để căn chỉnh các phần tử */
+  flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+  justify-content: space-between;
+  align-items: flex-end; /* Căn các phần tử về bên phải */
+  padding-right: 18px;
+}
+.mc .mid .col3 b {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.mc .mid1::after {
+  content: "";
+  display: block;
+  width: 1164px;
+  height: 1px;
+  background: #868686;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+/* footer */
+.footer {
+  margin-top: 81px;
+  background: #ff474a;
+  padding-top: 20px;
+}
+.footer .top {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+.footer .top h1 {
+  margin-left: 50px;
+}
+.footer .top::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-top: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .mid {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .mid .list {
+  margin-top: 76px;
+}
+.footer .mid .list a {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer .mid .socials {
+  margin-top: 22px;
+}
+.footer .contact::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .bot {
+  margin-top: 9px;
+}

@@ -1,0 +1,144 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.4rem;
+  font-family: "Roboto", serif;
+  background: rgba(255, 190, 169, 0.69);
+}
+/* common */
+a {
+  text-decoration: none;
+}
+.line {
+  display: flex;
+  align-items: center;
+}
+.main-content {
+  width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 20px);
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  color: #edebeb;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  background: #ff474a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+/* header */
+header {
+  background: #ff474a;
+  z-index: 100;
+}
+.header.fixed {
+  position: sticky;
+  top: -5px;
+}
+.header .main-content {
+  width: 1440px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  color: #fbeded;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header .logo img {
+  width: 105px;
+  height: 105px;
+}
+.header .search-bar {
+  display: flex;
+  width: 56%;
+  height: 40px;
+  margin-left: 21px;
+  margin-right: 96px;
+  align-items: center;
+  border-radius: 10px;
+  background: #f3f0f0;
+  border: 1px solid #b2b2b2;
+}
+.header .search-bar input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 0 10px 0 10px;
+  font-size: 2.4rem;
+  height: 100%;
+  outline: none;
+}
+::placeholder {
+  color: #868383;
+  font-family: Roboto;
+}
+.header .search-bar button {
+  border: 0;
+  padding-right: 15px;
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+.header .boss-nav {
+  color: #fff;
+  font-weight: 500;
+}
+/* thong ke so lieu */
+.thong-ke-so-lieu {
+  padding: 30px 0px;
+  margin: 12px 0px;
+}
+.thong-ke-so-lieu h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.thong-ke-so-lieu .sort-check {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  gap: 60px;
+}
+
+.thong-ke-so-lieu .check-box input {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.thong-ke-so-lieu img {
+  margin-top: 20px;
+}
+.first::after {
+  content: "";
+  display: block;
+  width: 1440px;
+  height: 1px;
+  background: #000;
+  margin-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
