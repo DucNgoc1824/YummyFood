@@ -296,13 +296,12 @@ header .search-bar button img {
 }
 /* footer */
 .footer {
-  margin-top: 60px;
+  margin-top: 50px;
   background: #ff474a;
 }
 .footer .top img {
   margin-left: 50px;
-  width: 226px;
-  height: 226px;
+  width: 18%;
 }
 .footer .top::after {
   content: "";
@@ -344,5 +343,6 @@ header .search-bar button img {
   margin-right: auto;
 }
 .footer .bot {
-  margin-top: 9px;
+  margin-top: 15px;
+  padding-bottom: 8px;
 }

@@ -147,12 +147,10 @@ header .search-bar button img {
 .footer {
   margin-top: 150px;
   background: #ff474a;
-  padding-top: 55px;
 }
 .footer .top img {
   margin-left: 50px;
-  width: 226px;
-  height: 226px;
+  width: 18%;
 }
 .footer .top::after {
   content: "";
@@ -194,7 +192,8 @@ header .search-bar button img {
   margin-right: auto;
 }
 .footer .bot {
-  margin-top: 9px;
+  margin-top: 15px;
+  padding-bottom: 8px;
 }
 .sign-up .main-content {
   margin-top: 27px;
