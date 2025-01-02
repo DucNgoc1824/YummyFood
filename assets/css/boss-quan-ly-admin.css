@@ -116,6 +116,7 @@ header {
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 10px;
+  margin-top: 40px;
 }
 .phe-duyet h2 {
   margin-right: 5px;
@@ -130,6 +131,7 @@ header {
   border: 1px solid #000;
   background: #fff;
   padding: 10px 50px;
+  margin-top: 46px;
 }
 
 .phe-duyet .wrapper p {
