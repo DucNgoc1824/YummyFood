@@ -130,12 +130,16 @@ header .search-bar button img {
   width: 30px;
   height: 30px;
 }
-.header .login a {
+.header .user {
+  display: flex;
+  align-items: center;
+  margin-left: 58px;
+}
+.header .user .user-name {
+  margin-left: 11px;
   color: #fff;
   font-size: 2.4rem;
-}
-.header .login a:first-child {
-  margin-left: 43px;
+  font-weight: 400;
 }
 /* shopping cart */
 .shopping-cart {
