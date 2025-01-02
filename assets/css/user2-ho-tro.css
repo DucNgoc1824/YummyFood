@@ -1,0 +1,246 @@
+/* reset */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", serif;
+  background: rgba(255, 190, 169, 0.69);
+}
+/* common */
+a {
+  text-decoration: none;
+}
+.main-content {
+  width: 1164px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 20px);
+}
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.btn {
+  border: none;
+  color: #edebeb;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  border-radius: 9px;
+  background: #ff474a;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+/* header */
+header {
+  background: #ff474a;
+  z-index: 100;
+}
+.header.fixed {
+  position: sticky;
+  top: -5px;
+}
+.header .main-content {
+  width: 1440px;
+}
+.header .body {
+  display: flex;
+  align-items: center;
+}
+.header .logo {
+  display: flex;
+  align-items: center;
+  color: #fbeded;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.header .logo img {
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
+}
+.nav ul {
+  display: flex;
+  gap: 54px;
+}
+.nav {
+  margin-left: auto;
+  margin-right: 54px;
+}
+.nav a {
+  color: #fff;
+  font-size: 2.4rem;
+  padding-top: 31px;
+  padding-bottom: 32px;
+  position: relative;
+}
+.nav a:hover {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.nav img.subtract-icon {
+  position: absolute;
+  top: 43px;
+}
+header .search-bar {
+  width: 338px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #646464;
+  background: #fffcfc;
+  overflow: hidden;
+  justify-content: space-between;
+  position: relative;
+}
+header .search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1.4rem;
+  background: transparent;
+  height: 100%;
+}
+header .search-bar button {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 11px;
+  top: 4px;
+  bottom: 5px;
+  cursor: pointer;
+}
+header .search-bar button img {
+  width: 30px;
+  height: 30px;
+}
+.header .user {
+  display: flex;
+  align-items: center;
+  margin-left: 58px;
+}
+.header .user .user-name {
+  margin-left: 11px;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+/* more infor button */
+.more-infor-btn {
+  padding: 20px 0;
+  margin-top: 89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 108px;
+  gap: 16px;
+}
+.more-infor-btn .mi-btn {
+  width: 338px;
+  height: 100%;
+  border: none;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng mượt */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.more-infor-btn .mi-btn:hover {
+  background: #f0f0f0; /* Màu nền sáng hơn */
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.3); /* Tăng cường bóng */
+}
+.more-infor-btn .mi-btn .icon {
+  width: 50px;
+  height: 50px;
+}
+.more-infor-btn .mi-btn .btn-name {
+  color: #000;
+  font-size: 2.4rem;
+}
+/* regular question */
+.regular-question {
+  padding: 20px 0;
+  margin-top: 55px;
+}
+.regular-question .title {
+  color: #000;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.regular-question .question {
+  display: block;
+  color: #000;
+  font-size: 2.4rem;
+  margin: 10px 0;
+}
+/* footer */
+.footer {
+  margin-top: 150px;
+  background: #ff474a;
+}
+.footer .top img {
+  margin-left: 50px;
+  width: 18%;
+}
+.footer .top::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .mid {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .mid .list {
+  margin-top: 76px;
+}
+.footer .mid .list a {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer .mid .socials {
+  margin-top: 22px;
+  display: flex;
+  gap: 28px;
+}
+.footer .contact::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #dadada;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .bot {
+  margin-top: 15px;
+  padding-bottom: 8px;
+}
