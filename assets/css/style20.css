@@ -104,7 +104,7 @@ header {
   align-items: center;
   margin-left: 58px;
 }
-.header .user .user-name {
+.header .user p {
   margin-left: 11px;
   color: #fff;
   font-size: 2.4rem;
@@ -276,6 +276,6 @@ header {
   font-size: 2.4rem;
   font-weight: 400;
 }
-.heading .top h2.active{
+.heading .top h2.active {
   font-weight: 700;
 }
