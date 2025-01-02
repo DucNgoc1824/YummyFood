@@ -160,7 +160,7 @@ header {
   display: flex;
   align-items: center;
 }
-.sub-nav .body p {
+.sub-nav .body a {
   flex: 1;
   text-align: center;
   color: #ff474a;
